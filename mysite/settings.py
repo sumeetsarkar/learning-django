@@ -32,6 +32,7 @@ ALLOWED_HOSTS = ['*']
 
 INSTALLED_APPS = [
     'polls.apps.PollsConfig',
+    'lm.apps.LmConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -78,8 +79,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'artofdjango',
-        'USER': 'postgres',
-        'PASSWORD': 'postgres',
+        'USER': 'sumeetsarkar',
+        'PASSWORD': 'artofdjango',
         'HOST': 'localhost',
         'PORT': '5432',
     }
